@@ -145,7 +145,15 @@ page {
 
     includeCSS {
         my_sitepackage_layout = EXT:my_sitepackage/Resources/Public/Css/layout.min.css
-        my_template_css = EXT:my_sitepackage/Resources/Public/Css/style.css
+        my_template_styleCss = EXT:my_sitepackage/Resources/Public/Css/style.css
+        my_template_bootstrapCss = EXT:my_sitepackage/Resources/Public/Css/extensions/my_sitepackage/Resources/Public/Css/bootstrap.min.css
+        my_template_sliderCss = EXT:my_sitepackage/Resources/Public/Css/extensions/my_sitepackage/Resources/Public/Css/tiny-slider.css
+
+    }
+
+
+    includeScss {
+       my_template_styleScss = EXT:my_sitepackage/Resources/Public/Scss/style.scss
     }
 
     includeJSLibs {
@@ -162,6 +170,9 @@ page {
 
     includeJSFooter {
         my_sitepackage_scripts = EXT:my_sitepackage/Resources/Public/JavaScript/Dist/scripts.js
+        my_template_bootstrapJs = EXT:my_sitepackage/Resources/Public/JavaScript/FurniJS/bootstrap.bundle.min.js
+        my_template_sliderJs = EXT:my_sitepackage/Resources/Public/JavaScript/FurniJS/tiny-slider.js
+        my_template_customJs = EXT:my_sitepackage/Resources/Public/JavaScript/FurniJS/custom.js
     }
 }
 
